@@ -1,0 +1,14 @@
+name: knuckleballs
+channels:
+  - conda-forge
+  - defaults
+dependencies: 
+  - ipython
+  - jupyter
+  - lxml
+  - matplotlib
+  - numpy
+  # - pybaseball - need to pip install this one separately 
+  - python=3.8
+  - pandas
+  - seaborn
